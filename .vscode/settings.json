@@ -8,6 +8,14 @@
     "components\\editable-element\\dist": true,
     "storybook\\package-lock.json": true,
     "storybook\\node_modules": true,
-    "components\\editable-element\\package-lock.json": true
+    "components\\editable-element\\package-lock.json": true,
+    "src\\storybook\\package-lock.json": true,
+    "src\\storybook\\node_modules": true,
+    "src\\components\\Overlay\\node_modules": true,
+    "src\\components\\Overlay\\babel.config.js": true,
+    "src\\components\\Overlay\\package-lock.json": true,
+    "src\\components\\EditableElement\\package-lock.json": true,
+    "src\\components\\EditableElement\\babel.config.js": true,
+    "src\\components\\EditableElement\\node_modules": true
   }
 }

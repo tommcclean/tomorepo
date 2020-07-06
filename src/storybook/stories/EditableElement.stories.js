@@ -1,6 +1,6 @@
 import { withKnobs, text, select } from '@storybook/addon-knobs'
 
-import EditableElementComponent from '../../components/editable-element/src/EditableElement';
+import EditableElementComponent from '../../components/EditableElement/src/EditableElement';
 
 export default {
   title: 'Components',
