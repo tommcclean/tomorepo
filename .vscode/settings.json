@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    ".vscode": true,
+    "node_modules": true,
+    ".gitignore": true,
+    "LICENSE": true,
+    "components\\editable-element\\node_modules": true,
+    "components\\editable-element\\dist": true,
+    "storybook\\package-lock.json": true,
+    "storybook\\node_modules": true,
+    "components\\editable-element\\package-lock.json": true
+  }
+}

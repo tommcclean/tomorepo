@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <editable-element
+      element="h1"
+      text="This is an editable element"
+      @component-updated="updateElement" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './HelloWorld.vue'
+import EditableElement from './EditableElement.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    EditableElement
+  },
+  methods: {
+    updateElement (newValue) {
+      alert(`Content Updated to: ${newValue}`)
+    }
   }
 }
 </script>
