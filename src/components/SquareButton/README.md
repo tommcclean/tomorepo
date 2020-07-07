@@ -1,29 +1,25 @@
-# Overlay
+# tomorepo/squarebutton
 
-## Project setup
+## Install dependency in your project
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install @tomorepo/squarebutton --save
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+### Import component where you want to use it
+```js
+import '@tomorepo/squarebutton';
 ```
 
-### Lints and fixes files
-```
-npm run lint
+### Use the component in your template
+```html
+  <square-button
+    text="Square Button"
+    :execute="clicked"
+    type="button" />
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Available Props
+- text - text - Default: 'Submit' `The text inside the button`
+- execute - function `The function to execute when clicked`
+- type - text - Default: 'button' `The HTML type for the button element`
+- isPrimary - boolean - Default: false `Whether to style as a primary button or not`

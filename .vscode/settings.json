@@ -18,6 +18,9 @@
     "src\\components\\EditableElement\\babel.config.js": true,
     "src\\components\\EditableElement\\node_modules": true,
     "src\\components\\Overlay\\dist": true,
-    "src\\components\\EditableElement\\dist": true
+    "src\\components\\EditableElement\\dist": true,
+    "src\\components\\SquareButton\\node_modules": true,
+    "src\\components\\SquareButton\\babel.config.js": true,
+    "src\\components\\SquareButton\\package-lock.json": true
   }
 }

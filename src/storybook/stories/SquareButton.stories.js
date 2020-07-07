@@ -1,6 +1,6 @@
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs'
 
-import SquareButtonComponent from '../../components/SquareButton/src/SquareButton';
+import SquareButtonComponent from '../../components/SquareButton/SquareButton';
 
 export default {
   title: 'Components',
