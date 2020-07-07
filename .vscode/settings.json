@@ -16,6 +16,8 @@
     "src\\components\\Overlay\\package-lock.json": true,
     "src\\components\\EditableElement\\package-lock.json": true,
     "src\\components\\EditableElement\\babel.config.js": true,
-    "src\\components\\EditableElement\\node_modules": true
+    "src\\components\\EditableElement\\node_modules": true,
+    "src\\components\\Overlay\\dist": true,
+    "src\\components\\EditableElement\\dist": true
   }
 }

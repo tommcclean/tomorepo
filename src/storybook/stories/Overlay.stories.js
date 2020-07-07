@@ -1,4 +1,4 @@
-import OverlayComponent from '../../components/Overlay/src/Overlay';
+import OverlayComponent from '../../components/Overlay/Overlay';
 
 export default {
   title: 'Components'

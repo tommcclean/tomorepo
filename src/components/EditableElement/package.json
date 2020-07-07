@@ -4,7 +4,7 @@
   "version": "1.1.0",
   "private": false,
   "scripts": {
-    "build": "vue-cli-service build --target lib --name editableelement ./src/export.js"
+    "build": "vue-cli-service build --target lib --name editableelement ./export.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
