@@ -1,11 +1,10 @@
 {
-  "name": "overlay",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@tomorepo/overlay",
+  "main": "./dist/overlay.common.js",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:bundle": "vue-cli-service build --target lib --name overlay ./src/export.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -38,5 +37,11 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "*.json",
+    "*.js"
   ]
 }

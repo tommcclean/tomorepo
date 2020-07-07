@@ -1,12 +1,13 @@
 <template>
-  <div
-    :class="['c-overlay', { 'c-overlay-fixed' : isFixed }]">
+  <div :class="['c-overlay', { 'c-overlay-fixed' : isFixed }]">
     <slot />
   </div>
 </template>
 
 <script>
 export default {
+  name: 'Overlay',
+
   props: {
     isFixed: {
       type: Boolean,
@@ -26,6 +27,7 @@ export default {
   z-index: 1030;
   background: rgba(0, 0, 0, 0.7);
 }
+
 .c-overlay--fixed {
   position: fixed;
 }
