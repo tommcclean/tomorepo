@@ -1,29 +1,27 @@
-# editable-element
+# tomorepo/editableelement
 
-## Project setup
+## Install dependency in your project
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install @tomorepo/editableelement --save
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+### Import component where you want to use it
+```js
+import '@tomorepo/editableelement';
 ```
 
-### Lints and fixes files
-```
-npm run lint
+### Use the component in your template
+```html
+  <editable-element
+    element="h1"
+    text="This is an editable element"
+    @component-updated="updateElement" />
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Available Props
+- element - Text - Default: 'h1' `The base element of the editable component`
+- text - text - Default: 'Empty Heading' `The initial text of the element before it is edited
+
+### Events
+- component-updated - Returns a string with the new value
+
