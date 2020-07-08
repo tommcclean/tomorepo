@@ -10,6 +10,7 @@
 
 <script>
 import Debounce from './Debounce.js'
+
 export default {
   props: {
     element: {

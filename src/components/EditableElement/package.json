@@ -1,16 +1,16 @@
 {
   "name": "@tomorepo/editableelement",
   "main": "./dist/editableelement.common.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": false,
   "scripts": {
     "build": "vue-cli-service build --target lib --name editableelement ./export.js"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "core-js": "^3.6.5"
   },
   "devDependencies": {
+    "vue": "^2.6.11",
     "@vue/cli-plugin-babel": "^4.4.0",
     "@vue/cli-plugin-eslint": "^4.4.0",
     "@vue/cli-service": "^4.4.0",
@@ -39,9 +39,6 @@
     "not dead"
   ],
   "files": [
-    "dist/*",
-    "src/*",
-    "*.json",
-    "*.js"
+    "dist/*"
   ]
 }
