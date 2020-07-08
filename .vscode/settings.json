@@ -22,6 +22,9 @@
     "src\\components\\SquareButton\\node_modules": true,
     "src\\components\\SquareButton\\babel.config.js": true,
     "src\\components\\SquareButton\\package-lock.json": true,
-    "src\\components\\SquareButton\\dist": true
+    "src\\components\\SquareButton\\dist": true,
+    "src\\components\\FieldInput\\node_modules": true,
+    "src\\components\\FormInput\\node_modules": true,
+    "src\\components\\FormInput\\babel.config.js": true
   }
 }

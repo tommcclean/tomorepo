@@ -3,7 +3,7 @@ import { withKnobs, text, select, boolean } from '@storybook/addon-knobs'
 import SquareButtonComponent from '../../components/SquareButton/SquareButton';
 
 export default {
-  title: 'Components',
+  title: 'Form Elements',
   decorators: [ withKnobs ]
 };
 
