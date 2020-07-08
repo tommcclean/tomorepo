@@ -6,8 +6,6 @@
 
 <script>
 export default {
-  name: 'Overlay',
-
   props: {
     isFixed: {
       type: Boolean,

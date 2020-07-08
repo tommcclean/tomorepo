@@ -1,12 +1,6 @@
 import Vue from 'vue';
 import Overlay from './Overlay.vue';
 
-const components = {
-    Overlay
-}
+Vue.component('Overlay', Overlay);
 
-Object.keys(components).forEach(name => {
-    Vue.component(name, components[name]);
-});
-
-export default components;
+export default Overlay;
