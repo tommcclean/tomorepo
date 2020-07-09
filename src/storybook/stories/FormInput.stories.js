@@ -1,10 +1,11 @@
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs'
+import { withA11y } from '@storybook/addon-a11y';
 
 import FormInputComponent from '../../components/FormInput/FormInput';
 
 export default {
   title: 'Form Elements',
-  decorators: [ withKnobs ]
+  decorators: [ withKnobs, withA11y ]
 };
 
 export const FormInput = () => ({
