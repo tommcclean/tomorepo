@@ -6,7 +6,6 @@
     "LICENSE": true,
     "src\\**\\package-lock.json": true,
     "src\\**\\node_modules": true,
-    "src\\**\\dist": true,
     "src\\components\\**\\package-lock.json": true,
     "src\\components\\**\\node_modules": true,
     "src\\components\\**\\dist": true,
