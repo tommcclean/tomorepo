@@ -1,7 +1,8 @@
 # tomorepo/formcollection
 This package is a collection of common Vue components used to build a great form.
 1. FormInput
-2. SquareButton
+2. FormSelect
+3. SquareButton
 
 ## Install dependency in your project
 ```
@@ -21,6 +22,17 @@ import '@tomorepo/formcollection';
     :model="myDataValue"
     label="This is the field label"
     is-required />
+
+  <form-select
+    model="TestValue"
+    :label="labelText">
+    <option value="Option One">
+      Option One
+    </option>
+    <option value="Option Two">
+      Option Two
+    </option>
+  </form-select>
 
   <square-button
     text="Square Button"

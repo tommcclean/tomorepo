@@ -1,10 +1,10 @@
 {
-  "name": "@tomorepo/formcollection",
-  "main": "./dist/formcollection.common.js",
-  "version": "1.2.0",
+  "name": "@tomorepo/formselect",
+  "main": "./dist/formselect.common.js",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
-    "build": "vue-cli-service build --target lib --name formcollection ./export.js"
+    "build": "vue-cli-service build --target lib --name formselect ./export.js"
   },
   "dependencies": {
     "core-js": "^3.6.5"
