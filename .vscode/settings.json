@@ -9,6 +9,9 @@
     "src\\**\\dist": true,
     "src\\components\\**\\package-lock.json": true,
     "src\\components\\**\\node_modules": true,
-    "src\\components\\**\\dist": true
+    "src\\components\\**\\dist": true,
+    "src\\collections\\**\\package-lock.json": true,
+    "src\\collections\\**\\node_modules": true,
+    "src\\collections\\**\\dist": true
   }
 }
