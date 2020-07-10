@@ -1,7 +1,7 @@
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs'
 import { withA11y } from '@storybook/addon-a11y';
 
-import FormInputComponent from '../../components/FormInput/FormInput';
+import FormInputComponent from '../../components/FormInput/Index';
 
 export default {
   title: 'Form Elements',
@@ -16,12 +16,21 @@ export const FormInput = () => ({
     },
     fieldType: {
       default: select('Element Type', ['input', 'textarea'])
+    },
+    inputType: {
+      default: select('Input Type', ['text', 'email', 'password'])
+    },
+    isRequired: {
+      default: boolean('Is Required', true)
     }
   },
   template: `
-  <form-input-component
-    :field-type="fieldType"
-    :label="labelText"
-    is-required />
+  <form>
+    <form-input-component
+      :field-type="fieldType"
+      :label="labelText"
+      :type="inputType"
+      :is-required="isRequired" />
+  </form>
     `
 });

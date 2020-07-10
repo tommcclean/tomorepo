@@ -1,7 +1,7 @@
 import { withKnobs, text, select } from '@storybook/addon-knobs'
 import { withA11y } from '@storybook/addon-a11y';
 
-import EditableElementComponent from '../../components/EditableElement/EditableElement';
+import EditableElementComponent from '../../components/EditableElement/Index';
 
 export default {
   title: 'Components',
@@ -19,8 +19,8 @@ export const EditableElement = () => ({
     }
   },
   template: `
-    <editable-element-component
-      :element="element"
-      :text="text" />
+      <editable-element-component
+        :element="element"
+        :text="text" />
     `
 });

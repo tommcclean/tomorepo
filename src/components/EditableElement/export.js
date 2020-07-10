@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import EditableElement from './EditableElement.vue';
+import EditableElement from './Index.vue';
 
 Vue.component('EditableElement', EditableElement);
 

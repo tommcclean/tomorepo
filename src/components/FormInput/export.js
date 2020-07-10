@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import FormInput from './FormInput.vue';
+import FormInput from './Index.vue';
 
 Vue.component('FormInput', FormInput);
 

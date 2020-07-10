@@ -55,14 +55,13 @@ export default {
 }
 
 .c-input input {
-  display: block;
-  width: 100%;
+  width: calc(100% - 30px);
   padding: 15px;
   background-color: #EDEDED;
   outline: none;
   border: 1px solid white;
-  transition: all 0.2s ease-in-out;
   border-radius: 5px;
+  transition: all 0.2s ease-in-out;
 }
 
 .c-input input:hover, .c-input input:active {
@@ -70,14 +69,14 @@ export default {
 }
 
 .c-input textarea {
-  display: block;
-  width: 100%;
+  min-height: 50px;
+  width: calc(100% - 30px);
   padding: 15px;
   background-color: #EDEDED;
   outline: none;
   border: 1px solid white;
-  transition: all 0.2s ease-in-out;
   border-radius: 5px;
+  transition: all 0.2s ease-in-out;
 }
 
 .c-input textarea:hover, .c-input textarea:active {
