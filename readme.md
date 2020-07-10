@@ -4,7 +4,7 @@
 Resource | Description | Link
 -------- | -------- | --------
 Try it out | Using our live Storybook instance | https://cmpct.io/sujTtP6TF
-Our components | The source code for each component | https://cmpct.io/sYZajcDsw
+Our Components | The source code for each component | https://cmpct.io/sYZajcDsw
 Our Collections | Curated groups of components | https://cmpct.io/yOICSQPKX
 
 ## What is tomorepo?
