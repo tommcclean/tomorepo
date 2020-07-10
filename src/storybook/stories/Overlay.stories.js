@@ -3,7 +3,7 @@ import { withA11y } from '@storybook/addon-a11y';
 import OverlayComponent from '../../components/Overlay/Overlay';
 
 export default {
-  title: 'Components',
+  title: 'Utilities',
   decorators: [ withA11y ]
 };
 

@@ -4,7 +4,7 @@ import { withA11y } from '@storybook/addon-a11y';
 import TagComponent from '../../components/Tag/Index';
 
 export default {
-  title: 'Components',
+  title: 'Utilities',
   decorators: [ withKnobs, withA11y ]
 };
 
