@@ -17,15 +17,17 @@ export default {
       type: String,
       default: 'h1'
     },
+
     text: {
       type: String,
-      default: 'Empty heading'
+      default: 'Empty editable element'
     }
   },
+
   methods: {
     updateComponent: Debounce(function (event) {
       this.$emit('component-updated', event.target.textContent)
-    }, 1500)
+    }, 1000)
   }
 }
 </script>
@@ -36,7 +38,7 @@ export default {
   border: 1px solid transparent;
   transition: border 0.2s ease-in-out;
   padding: 10px 5px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .c-editable-element:hover, .c-editable-element:active, .c-editable-element:focus {

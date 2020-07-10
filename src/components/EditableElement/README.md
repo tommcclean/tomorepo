@@ -19,9 +19,9 @@ import '@tomorepo/editableelement';
 ```
 
 ### Available Props
-- element - Text - Default: 'h1' `The base element of the editable component`
-- text - text - Default: 'Empty Heading' `The initial text of the element before it is edited
+- `element` - text - Default: 'h1' `The base element of the editable component`
+- `text` - text - Default: 'Empty Heading' `The initial text of the element before it is edited
 
 ### Events
-- component-updated - Returns a string with the new value
+- `component-updated` - Returns a string with the new value
 
