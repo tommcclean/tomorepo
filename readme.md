@@ -1,5 +1,5 @@
 # tomorepo
-> Try out our components: https://tommcclean.github.io/tomorepo
+> Easy to use components for your VueJS projects
 
 Resource | Description | Link
 -------- | -------- | --------
