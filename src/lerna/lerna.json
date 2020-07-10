@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "../components/*",
+    "../collections/*"
+  ],
+  "version": "independent"
+}
