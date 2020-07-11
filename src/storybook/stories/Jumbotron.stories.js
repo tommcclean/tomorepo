@@ -13,11 +13,11 @@ export const Jumbotron = () => ({
   props: {
     imageUrl: {
       default: select('Background Image', [
-        '/backgrounds/books-background.jpg',
-        '/backgrounds/paint-background.jpg',
-        '/backgrounds/blueprint-background.jpg',
-        '/backgrounds/phone-background.jpg'
-      ], '/backgrounds/books-background.jpg')
+        'backgrounds/books-background.jpg',
+        'backgrounds/paint-background.jpg',
+        'backgrounds/blueprint-background.jpg',
+        'backgrounds/phone-background.jpg'
+      ], 'backgrounds/books-background.jpg')
     },
     isTaller: {
       default: boolean('Make Taller', false)
@@ -29,7 +29,6 @@ export const Jumbotron = () => ({
       :is-taller="isTaller">
       <h1>Hero Component</h1>
       <p>All of this content is injected via a slot</p>
-      <p v-text="imageUrl" />
     </Jumbotron-component>
   `
 });
