@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "start-storybook -s ./static -p 6006",
+    "build": "build-storybook -s ./static",
     "deploy": "build-storybook -s ./static && storybook-to-ghpages --existing-output-dir ./storybook-static"
   },
   "keywords": [],
