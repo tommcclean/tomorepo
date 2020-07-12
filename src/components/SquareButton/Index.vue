@@ -2,10 +2,7 @@
   <button
     class="c-button"
     :type="props.type"
-    :class="[
-      { 'u-primary': props.isPrimary },
-      { 'c-button-white' : props.isWhite }
-    ]"
+    :class="[{ 'u-primary': props.isPrimary }]"
     @click="props.execute">
     <span
       v-text="props.text" />
@@ -20,10 +17,6 @@ export default {
       default: 'Submit'
     },
     isPrimary: {
-      type: Boolean,
-      default: false
-    },
-    isWhite: {
       type: Boolean,
       default: false
     },
@@ -60,14 +53,5 @@ export default {
 
 .c-button.u-primary:hover {
   border: 1px solid #003FBA;
-}
-
-.c-button.c-button-white {
-  background-color: white;
-  border: 1px solid #EDEDED;
-}
-
-.c-button.c-button-white:hover {
-  border: 1px solid white;
 }
 </style>

@@ -1,7 +1,7 @@
 import Vue from 'vue';
-import FormInput from '../../components/FormInput/FormInput';
-import FormSelect from '../../components/FormSelect/FormSelect';
-import SquareButton from '../../components/SquareButton/SquareButton';
+import FormInput from '../../components/FormInput/Index';
+import FormSelect from '../../components/FormSelect/Index';
+import SquareButton from '../../components/SquareButton/Index';
 
 const components = [
   FormInput,

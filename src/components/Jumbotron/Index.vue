@@ -17,7 +17,8 @@
 </template>
 
 <script>
-import Overlay from '../Overlay/Overlay'
+import Overlay from '../Overlay/Index.vue'
+
 export default {
   components: {
     Overlay

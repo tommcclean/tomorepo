@@ -1,7 +1,7 @@
 import { withA11y } from '@storybook/addon-a11y';
 
-import ModalComponent from '../../components/Modal/Modal';
-import SquareButtonComponent from '../../components/SquareButton/SquareButton'
+import ModalComponent from '../../components/Modal/Index';
+import SquareButtonComponent from '../../components/SquareButton/Index'
 export default {
   title: 'Utilities',
   decorators: [ withA11y ]

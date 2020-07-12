@@ -1,7 +1,7 @@
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs'
 import { withA11y } from '@storybook/addon-a11y';
 
-import SquareButtonComponent from '../../components/SquareButton/SquareButton';
+import SquareButtonComponent from '../../components/SquareButton/Index';
 
 export default {
   title: 'Form Elements',

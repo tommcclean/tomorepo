@@ -51,6 +51,7 @@ export default {
     border: 1px solid white;
     transition: all 0.2s ease-in-out;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .c-select select:hover, .c-select select:active {
