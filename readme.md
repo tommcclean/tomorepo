@@ -19,4 +19,4 @@ Our Collections | Curated groups of components | https://cmpct.io/yOICSQPKX
 
 ## Can I use tomorepo?
 - Sure, if you want to improve an existing component, or add your own feel free to fork the repo and send us a PR
-- If you want your own mono repo; feel free to take out code and modify it to your liking.
+- If you want your own mono repo; feel free to take our code and modify it to your liking.
