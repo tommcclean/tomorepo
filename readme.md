@@ -8,8 +8,8 @@ Our Components | The source code for each component | https://cmpct.io/sYZajcDsw
 Our Collections | Curated groups of components | https://cmpct.io/yOICSQPKX
 
 ## Develop Locally
-1. Setup: `cd /src`, `yarn` - Only ever run yarn from the `src` folder; Yarn Workspaces looks after all sub projects
-2. Storybook: `cd /src`, `yarn dev` - To run the storybook instance, when developing components use Storybook
+1. Setup: `yarn` - Only ever run yarn from the `src` folder; Yarn Workspaces looks after all sub projects
+2. Storybook: `yarn dev` - To run the storybook instance, when developing components use Storybook
 3. Create Component: copy an existing component and modify the `package.json`, `export.js` and `Index.vue` to do what you want.
 
 ## What is tomorepo?
