@@ -12,7 +12,7 @@ import '@tomorepo/modal';
 
 ### Use the component in your template
 ```html
-  <ModalComponent>
+  <Modal>
     <template v-slot:header>
       <p>This is the Header (Slot: Header)</p>
     </template>
@@ -23,5 +23,5 @@ import '@tomorepo/modal';
     <template v-slot:footer>
       <p>This is the Footer (Slot: Footer)</p>
     </template>
-  </ModalComponent>
+  </Modal>
 ```
