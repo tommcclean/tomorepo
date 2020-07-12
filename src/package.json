@@ -5,5 +5,8 @@
     "collections/*",
     "components/*",
     "storybook"
-  ]
+  ],
+  "scripts": {
+    "dev": "cd storybook && start-storybook -s ./static -p 6006"
+  }
 }
